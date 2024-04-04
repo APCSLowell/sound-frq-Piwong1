@@ -52,5 +52,6 @@ public class Sound
     for(int j=0;j<list.length;j++){
     list[i]=samples[i+start];
     }
+    samples=list;
   }
 }
