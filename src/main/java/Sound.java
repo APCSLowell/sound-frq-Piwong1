@@ -28,16 +28,7 @@ public class Sound
     }
     return count;
     }
-  }
-
-
-
-  /** Removes all silence from the beginning of this sound.
-   *  Silence is represented by a value of 0.
-   *  Precondition: samples contains at least one nonzero value
-   *  Postcondition: the length of samples reflects the removal of starting silence
-   */
-  public void trimSilenceFromBeginning()
+    public void trimSilenceFromBeginning()
   {
     int start=0;
     boolean flip=false;
@@ -57,4 +48,10 @@ public class Sound
     }
     samples=list;
   }
-}
+  }
+
+
+
+
+
+
