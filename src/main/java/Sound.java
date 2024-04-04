@@ -45,7 +45,7 @@ public class Sound
       if(samples[i]==0&&flip==false){
       count++;
       }
-      else if(samples[i]!=0&&flip==false){
+     if(samples[i]!=0){
       flip=true;
       }
     }
