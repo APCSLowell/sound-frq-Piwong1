@@ -42,13 +42,11 @@ public class Sound
     int count=0;
     boolean flip=false;
     for(int i=0;i<samples.length;i++){
-       if(samples[i]!=0){
+       if(samples[i]!=0)
       flip=true;
-      }
-      if(samples[i]==0&&flip==false){
+      
+      if(samples[i]==0&&flip==false)
       count++;
-      }
-    
     }
     int [] list=new int[samples.length-count];
     for(int j=0;j<list.length;j++){
