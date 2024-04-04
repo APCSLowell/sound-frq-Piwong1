@@ -49,7 +49,7 @@ public class Sound
       flip=true;
       }
     }
-    int []list=new int[samples.length-count];
+    int [] list=new int[samples.length-count];
     for(int j=0;j<list.length;j++){
     list[i]=samples[i+count];
     }
