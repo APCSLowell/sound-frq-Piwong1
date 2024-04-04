@@ -44,7 +44,7 @@ public class Sound
     }
     int [] list=new int[samples.length-start];
     for(int j=0;j<list.length;j++){
-    list[i]=samples[i+start];
+    list[j]=samples[j+start];
     }
     samples=list;
   }
