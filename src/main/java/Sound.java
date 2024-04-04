@@ -37,7 +37,7 @@ public class Sound
    *  Precondition: samples contains at least one nonzero value
    *  Postcondition: the length of samples reflects the removal of starting silence
    */
-  public void trimSilenceFromBeginning()
+  public static void trimSilenceFromBeginning()
   {
     int start=0;
     boolean flip=false;
