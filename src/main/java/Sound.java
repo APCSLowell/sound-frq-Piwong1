@@ -41,12 +41,15 @@ public class Sound
   {
     int start=0;
     boolean flip=false;
-    for(int k=0;k<samples.length;k++){
+    while(flip==false){
+      int k=0;
        if(samples[k]!=0)
       flip=true;
       
       if(samples[k]==0&&flip==false)
       start++;
+
+     k++;
     }
     int [] list=new int[samples.length-start];
     for(int j=0;j<list.length;j++){
